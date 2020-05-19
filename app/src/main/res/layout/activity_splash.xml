@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="nebiyou.dailyexpensemanager.SplashActivity">
+
+    <TextView
+        android:id="@+id/textView14"
+        style="@android:style/Widget.DeviceDefault.Light.TextView.SpinnerItem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:autoText="false"
+        android:clickable="false"
+        android:elevation="1dp"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:fontFamily="casual"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="Daily Expense Manager"
+        android:textAppearance="@style/TextAppearance.AppCompat.Button"
+        android:textColorLink="@color/colorPrimaryDark"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        android:visibility="visible"
+        tools:style="@android:style/Widget.DeviceDefault.Light.TextView.SpinnerItem" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="bottom"
+        android:text="Developed by std.Nebiyou  / on Android studio / in Programing Camp  /  by the asistance of Mr Bereket" />
+
+</LinearLayout>

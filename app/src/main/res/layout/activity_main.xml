@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="nebiyou.dailyexpensemanager.MainActivity"
+    android:weightSum="1">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="66dp"
+        android:fontFamily="cursive"
+        android:text="Wellcome To Your Daily Expanse Manager "
+        android:textAllCaps="true"
+        tools:style="@android:style/Widget.TextView.ListSeparator.White"
+        tools:textAlignment="center"
+        tools:textSize="36sp" />
+
+    <DatePicker
+        android:id="@+id/datePicker"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:datePickerMode="spinner" />
+
+    <Button
+        android:id="@+id/btnadd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="btnadd"
+        android:text="Add your Daily Expanse" />
+
+    <Button
+        android:id="@+id/btnsearch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="btnsearch"
+        android:text="Search Your Past Expanse" />
+
+    <Button
+        android:id="@+id/btnSearchAll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="btnSearchAll"
+        android:text="Search All Your Expenses" />
+
+</LinearLayout>
